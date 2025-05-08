@@ -5,9 +5,9 @@ int evenSum() {
     int upper, lower;
     int sum = 0;
     cout << "Enter the lower bound: ";
-    cin >> upper;
-    cout << "Enter the upper bound: ";
     cin >> lower;
+    cout << "Enter the upper bound: ";
+    cin >> upper;
 
     if (lower > upper) 
     {
